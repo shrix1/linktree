@@ -10,5 +10,5 @@ check.addEventListener("change", (e) => {
     para.classList.toggle("pchange");
     themeTxt.classList.toggle("pchange");  
     footer.classList.toggle("fchange");  
-    iconChange.innerHTML=`<i style="color:white" class="fa-solid fa-moon"></i>`;
+    iconChange.innerHTML=`<i style="color:white" class="fa-solid fa-sun"></i>`;
 });
