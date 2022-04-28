@@ -1,3 +1,3 @@
 # linktree
  
-##Check it out: https://shrilinktree.netlify.app/
+## Check it out: https://shrilinktree.netlify.app/
