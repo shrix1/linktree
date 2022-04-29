@@ -117,8 +117,9 @@ h2{
 .gametxt{
     margin-top: -1px;
 }
-/* @media (max-width:500px){
+@media (max-width:500px){
     #container{
         margin-top: 20px;
     }
-} */
+}
+
