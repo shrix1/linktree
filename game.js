@@ -31,7 +31,7 @@ window.addEventListener("click",(e)=>{
 //duch/chick random pos generator
 setInterval(()=>{
     const topp = Math.random() * 400 ;  
-    const leftt = Math.random() * 400; 
+    const leftt = Math.random() * 300; 
     duck.style.top = topp + "px";
     duck.style.left = leftt + "px"; 
-},1000)
+},700)
