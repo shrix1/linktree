@@ -62,7 +62,7 @@ img{
     transition:all 0.2s ease 0s;
     border: 1px solid black;
 }
-.links:hover{
+.links:hover , .gameli:hover{
     color:var(--links-bg) ;
     background-color: var(--links-color);
 }
@@ -95,6 +95,25 @@ h2{
     text-align: center;
     transition: all 0.4s ease 0s;
 }
-.fchange{
+.fchange ,.gchange{
   color: var(--links-color);
+}
+.games{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    margin-top: 15px;
+}
+.gameli{
+    padding: 10px;
+    background-color: var(--links-bg);
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: var(--main-black);
+    transition:all 0.2s ease 0s;
+}
+.gametxt{
+    margin-top: -1px;
 }
