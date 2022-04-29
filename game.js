@@ -34,4 +34,4 @@ setInterval(()=>{
     const leftt = Math.random() * 300; 
     duck.style.top = topp + "px";
     duck.style.left = leftt + "px"; 
-},700)
+},1000)
