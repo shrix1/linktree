@@ -1,9 +1,9 @@
 const check = document.querySelector(".check");
 const bg = document.querySelector(".bg");
-const para= document.querySelector(".default");
-const themeTxt= document.querySelector(".mode");
-const iconChange= document.querySelector(".icon");
-const footer= document.querySelector(".footer");
+const para = document.querySelector(".default");
+const themeTxt = document.querySelector(".mode");
+const iconChange = document.querySelector(".icon");
+const footer = document.querySelector(".footer");
 
 check.addEventListener("change", (e) => {
     bg.classList.toggle("change");
